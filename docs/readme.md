@@ -9,7 +9,7 @@ The game is spent calling out to the cats and having them run away.
 
 The player can move around the screen, a yard, in x+y, and call the cats, which
 causes them to run away. The goal it to herd them in to a house or a
-cat corrall.
+cat corral.
 
 ### Functionality & MVP  
 
@@ -30,7 +30,7 @@ This app will consist of a single screen with game world, with
 buttons for a tutorial, high scores, and links to my Github, my LinkedIn,
 and the About modal.
 
-![wireframes](images/cat_herder.jpeg)
+![wireframes](images/cat_herder.png)
 
 ### Architecture and Technologies
 
