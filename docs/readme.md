@@ -37,14 +37,14 @@ and the About modal.
 This project will be implemented with the following technologies:
 
 - Vanilla JavaScript and for overall structure and game logic,
-- `Easel.js` with `HTML5 Canvas` for DOM manipulation and rendering,
+- `p5.js` with `HTML5 Canvas` for DOM manipulation and rendering,
 - Webpack to bundle and serve up the various scripts.
 
 In addition to the webpack entry file, there will be three scripts involved in this project:
 
-`game.js`: this script will handle the high level game logic.
+`cat_herder.js`: this script will handle the high level game logic.
 
-`prmitives.js`: this will be the library of primitives used in the game
+`shapes.js`: this will be the library of primitives used in the game
 
 `actors.js`: the cat and player classes
 
@@ -53,10 +53,10 @@ from a file.
 
 ### Implementation Timeline
 
-**Day 1**: Setup all necessary Node modules, including getting webpack up and running and `Easel.js` installed.  Create `webpack.config.js` as well as `package.json`.  Write a basic entry file and the bare bones of all 3 scripts outlined above.  Learn the basics of `Easel.js`.  Goals for the day:
+**Day 1**: Setup all necessary Node modules, including getting webpack up and running and `p5.js` installed.  Create `webpack.config.js` as well as `package.json`.  Write a basic entry file and the bare bones of all 3 scripts outlined above.  Learn the basics of `p5.js`.  Goals for the day:
 
 - Get a green bundle with `webpack`
-- Learn enough `Easel.js` to render an object to the `Canvas` element
+- Learn enough `p5.js` to render an object to the `Canvas` element
 
 **Day 2**: Dedicate this day to learning the graphics API.  First, build out the primitives objects to connect to make some level files.  Then, use level.js to create and a level at different z heights.  Goals for the day:
 
@@ -64,7 +64,7 @@ from a file.
 - Make rectangle wall primitives
 - Make circle primitives
 - Make a cat primitive
-- Render a square grid to the `Canvas` using `Easel.js`
+- Render a square grid to the `Canvas` using `p5.js`
 
 **Day 3**: Create the cat flocking/herding logic.  Build out the game class.  Goals for the day:
 
