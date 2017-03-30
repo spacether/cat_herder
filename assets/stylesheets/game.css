@@ -1,0 +1,14 @@
+canvas {
+  background-image: url('../images/grass2.png');
+  background-size: 30%;
+  /*background-image: url('../images/grass.png');
+  background-size: 50%;*/
+}
+
+audio {
+  display: none;
+}
+
+html, body {
+  margin: 0;
+}
