@@ -1,6 +1,10 @@
 <html>
   <head>
     <title>Cat Herder</title>
+    <script src="https://use.fontawesome.com/b9970b0b6e.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Share" rel="stylesheet">
+
     <link rel="stylesheet" media="all" href="assets/stylesheets/game.css">
     <script src="lib/p5.min.js"></script>
     <script src="lib/p5.collide2d.min.js"></script>
@@ -8,10 +12,37 @@
     <script src="lib/bundle.js" type="text/javascript"></script>
     <!-- <script src="lib/test.js" type="text/javascript"></script> -->
   </head>
+  <body>
 
-  <div id="view"></div>
+    <nav>
+			<div class="titles">Cat Herder</div>
 
-  <audio controls id='CALL_CATS' src='assets/sounds/cat_call_1.mp3'></audio>
-  <audio controls id='CAT_MEW' src='assets/sounds/262312__steffcaffrey__cat-meow1.mp3'></audio>
-  <audio controls id='CAT_ANGRY' src='assets/sounds/Cat_Meowing_2-Mr_Smith-780889994.mp3'></audio>
+      <div class="logo">
+        <label>Audio Setting:</label>
+        <select onChange="game.setAudio(event)">
+          <option selected value="Music + FX">Music + FX</option>
+          <option value="FX only">FX only</option>
+          <option value="Muted">Muted</option>
+        </select>
+        <input type='button' value='Start Game' onClick="game.togglePause(event)" id="pauser">
+      </div>
+
+			<div class="logo">
+				<div>
+					<a href="https://github.com/spacether/cat_herder"><i class="fa fa-github" aria-hidden="true"></i></a>
+				</div>
+				<div>
+					<a href="http://www.linkedin.com/pub/justin-black/52/433/813/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</nav>
+
+    <div id="gameholderr">
+      <div id="view"></div>
+    </div>
+
+    <div id="intro">Welcome to Cat Herder! <br> Use the arrow keys or WSAD to move around! Press the spacebar to call the cats. You win when you've herded all the cats into the brown corral!<br><br> Press the spacebar to start!</div>
+    <div id="win-msg">You Won! <br> Who is the best cat herder? You Are!</div>
+
+  </body>
 </html>
