@@ -45,7 +45,7 @@ body {
 #view {
   border: 1px solid black;
   background-image: url('../images/grass2.png');
-  background-size: 30%;
+  background-size: 20%;
   /*background-image: url('../images/grass.png');
   background-size: 50%;*/
 }
