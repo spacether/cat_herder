@@ -34,13 +34,13 @@ The following are Cat Herder's technical features:
 ### Key Challenges
 
 - Hit detection offered by p5 was very rudimentary
- - Collision only reported for line-line intersection
- - Shapes do not report which line is hitting another line
- - No reporting of normal vectors
- - SOLUTION: write my own vector class to bridge the gaps
+  - Collision only reported for line-line intersection
+  - Shapes do not report which line is hitting another line
+  - No reporting of normal vectors
+  - SOLUTION: write my own vector class to bridge the gaps
 - Coordinate system of canvas is modified cartesian
- - SOLUTION: work in the modified coordinate system, clockwise = positive
+  - SOLUTION: work in the modified coordinate system, clockwise = positive
 - Plotting png images in p5 is not working
- - SOLUTION: keep using the primitive shapes, sadly
+  - SOLUTION: keep using the primitive shapes, sadly
 
 [play_screen]: ./docs/images/cat_herder_playscreen.png "Cat Herder play screen"
