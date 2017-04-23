@@ -45,4 +45,4 @@ The following are Cat Herder's technical features:
 
 [play_screen]: ./docs/images/cat_herder_playscreen.png "Cat Herder play screen"
 
-![Justin Analytics](https://ga-beacon.appspot.com/UA-97855011-1/cat_herder?pixel)
+![Justin Analytics](https://ga-beacon.appspot.com/UA-97855011-1/cat_herder_github?pixel)
