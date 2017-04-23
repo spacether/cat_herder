@@ -44,3 +44,5 @@ The following are Cat Herder's technical features:
   - SOLUTION: keep using the primitive shapes, sadly
 
 [play_screen]: ./docs/images/cat_herder_playscreen.png "Cat Herder play screen"
+
+![Justin Analytics](https://ga-beacon.appspot.com/UA-97855011-1/cat_herder?pixel)
